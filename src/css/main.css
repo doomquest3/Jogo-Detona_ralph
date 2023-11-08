@@ -1,0 +1,64 @@
+/* Container do jogo */
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/stone_wall.jpg');
+    background-size: cover;
+}
+
+/* Menu da barra superior */
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(38, 38, 43);
+    color: #ffffff;
+    border-bottom: 0.25rem solid goldenrod;
+
+}
+
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2){
+    margin: 0.8rem 0 0 0;
+
+}
+
+/* Vidas do jogador */
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+/* Painel do jogo */
+.panel{
+    margin: 1rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Quadrados do jogo onde o inimigo aparece */
+.square{
+    height: 10rem;
+    width: 10rem;
+    border: 1px solid black;
+    background-color: blueviolet;
+
+}
+
+/* Caixinha no qual o inimigo aparece */
+.inimigo{
+    background-color: brown;
+    background-image: url('/src/img/ralph.gif');
+    background-size: cover;
+
+}
