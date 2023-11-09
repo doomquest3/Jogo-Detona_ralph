@@ -29,7 +29,7 @@ function contagem(){
         clearInterval(state.actions.contagemTempoId)
         clearInterval(state.actions.timerId)
         alert("O seu tempo acabou, sua pontuação é de: "+state.values.resultado+"");
-
+        window.location.reload();
     }
     
 }
